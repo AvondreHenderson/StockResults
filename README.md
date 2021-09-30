@@ -2,8 +2,12 @@
 This spreadsheet contains data relating to stock results spread out across sheets A-F and P. The results can be displayed in each individual channel by running the macro "StockResults_FinalCode.bas"
 This macro will displays columns with the individual tickers in the main data range along with the yearly and percentage change for the individual ticker, and the total volume for all ticker values. 
 
+There will be 2 versions of the excel spreadsheet included in the repository. 
 
-#Below is the final version of the code. 
+#### 1. Original_StockResults_dataset - includes the original data set that has been untouched. 
+#### 2. Finished_Stockresults_dataset - has the final value of all of the results after the macro is run. 
+
+### Below is the final version of the code. 
 
 
     Sub TickerFInd():
