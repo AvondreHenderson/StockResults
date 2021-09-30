@@ -4,20 +4,24 @@ This macro will displays columns with the individual tickers in the main data ra
 
 
 #Below is the final version of the code. 
-Sub TickerFInd():
+
+
+    Sub TickerFInd():
+    
     'set the table names for the values we are looking for
     Range("I1:L1").Value = Array("Ticker", "Yearly Change", "Percent Change", "Total")
     
-    
     'set the intial variable for storing the ticker name
     Dim TickerName As String
+   
     'Set the variable for the yearly change as double as it includes decimal places up to two digits
     Dim yearlyChange As Double
+    
     'set the variable for the percent change increase or decrease over the year
     Dim percentChange As Double
     'Set the variable for the total yearly volume
     Dim totalYearly As Long
-    'define what row the summary table starts on
+     'define what row the summary table starts on
     Dim Summary_Table_Row As Integer
     Summary_Table_Row = 2
     
@@ -79,5 +83,4 @@ Sub TickerFInd():
         
     Next i
     
-      
-End Sub
+      End Sub
